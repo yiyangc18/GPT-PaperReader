@@ -27,12 +27,14 @@ pip install -r requirements.txt
 
 ### 使用指南
 
-叠加: 本项目说明还不够完善，没有配备gradio之类的UI，不推荐没有编程基础的同学使用。
+叠甲: 本项目说明还不够完善，没有配备gradio之类的UI，不推荐没有编程基础的同学使用。
 
 ![this is not a bug](\document\not_bug.png)
 
 
-1. 打开Jupyter Notebook:
+1. 复制config.py 重命名为config_private.py，填写API key、代理等配置信息
+
+2. 打开Jupyter Notebook:
 
 ```bash
 jupyter notebook
@@ -59,5 +61,6 @@ jupyter notebook
 
 ## 鸣谢
 
-感谢钟老师的“寻找idea”方法，启发了本项目的开发。更多详情请参考 [哔哩哔哩教程](https://www.bilibili.com/read/cv26369099/)。
+感谢钟老师的“寻找idea”方法，启发了本项目的开发。更多详情请参考 [哔哩哔哩教程](https://www.bilibili.com/read/cv26369099/)
+
 本项目的config、toolbox、utils等工具源自项目[gpt_academic](https://github.com/binary-husky/gpt_academic)

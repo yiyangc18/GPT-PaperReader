@@ -30,7 +30,9 @@ Note: This project is not fully equipped with a user interface like gradio, and 
 
 ![this is not a bug](document/not_bug.png)
 
-1. Open Jupyter Notebook:
+1. copy the `config.py` file and rename it to `config_private.py`. Fill in the configuration information, such as the API key and proxy.
+
+2. Open Jupyter Notebook:
 
 ```bash
 jupyter notebook
@@ -38,7 +40,7 @@ jupyter notebook
 
 Or, open the `paper_reader.ipynb` file in VSCode.
 
-2. Follow the instructions provided within the notebook.
+3. Follow the instructions provided within the notebook.
 
 ## Advanced Usage
 
